@@ -37,23 +37,8 @@ public class OpenClosed {
         
         /**
          * Adicione aqui seu código refatorado com referências a métodos e classes contidas no pacote openclosed.correct
+         * Como ficaria a adicao da forma geometrica Triangulo?
          */
-        /**
-         * Aqui temos classes Rectangle e Circle que sao "Shapes", e portanto, implementam seus próprios cálculos de área
-         */
-        openclosed.correct.Shape rectangle = new openclosed.correct.Rectangle(4,3);
-        openclosed.correct.Shape circle = new openclosed.correct.Circle(5);
-        
-        System.out.println("Area do retangulo -> " + rectangle.getArea());
-        System.out.println("Area do circulo -> " + circle.getArea());
-        
-        /**
-         * Instanciando uma nova classe, que surgiu depois. Ela também é um "Shape". 
-         * Não é necessário modificar as classes já existentes.
-         * Apenas a classe Triangle foi criada, já implementando a lógica de cálculo de sua área
-         */
-        openclosed.correct.Shape triangle = new openclosed.correct.Triangle(2, 7);
-        System.out.println("Area do triângulo -> " + triangle.getArea());
         
         
     }
